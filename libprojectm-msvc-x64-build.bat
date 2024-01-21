@@ -41,7 +41,7 @@ mkdir %BUILDTREE%\projectm
 cd %BUILDTREE%\projectm
 cmake -G %cmake_platform% ^
 -A %cmake_arch% ^
--DBUILD_BUILD_SHARED_LIBS:BOOL=OFF ^
+-DBUILD_SHARED_LIBS:BOOL=OFF ^
 -DCMAKE_TOOLCHAIN_FILE=D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake ^
 -DBUILD_TESTING:BOOL=OFF ^
 -DCMAKE_CXX_FLAGS_RELEASE="/P7" ^
